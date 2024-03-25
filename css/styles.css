@@ -1,0 +1,51 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /*1rem = 10px*/
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+} 
+
+.chart {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+  }
+
+.agujasText{
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #000000;
+
+}
+
+#sims{
+    padding-top: 1.3rem;
+}
+button{
+    background-color: #4CAF50;
+    color: white;
+    margin: 0.5rem 0;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #45a049;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    color: #000000;
+    text-align: center;
+}
